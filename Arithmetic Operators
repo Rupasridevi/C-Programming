@@ -1,0 +1,34 @@
+#include <stdio.h>
+int main()
+{
+	int x,y,s,su,mu,di,po,ch;
+	printf("enter your choice");
+	scanf("%d",&ch);
+	printf("enter the two numbers");
+	scanf("%d %d",&x,&y);
+	switch(ch)
+	{
+	 case 1:
+	   s=x+y;
+	   printf("s\n is %d",s);
+	   break;
+	case 2:
+	   su=x-y;
+	   printf("su\n is %d",su);
+	   break;
+	case 3:
+	   mu=x*y;
+	   printf("mu\n is %d",mu);
+	   break;
+	case 4:
+	   di=x/y;
+	   printf("di\n is %d",di);
+	   break;
+	case 5:
+	   s=x%y;
+	   printf("remainder when divided by y = %d \n",ch);
+	   break;
+	   
+	}
+	
+}
