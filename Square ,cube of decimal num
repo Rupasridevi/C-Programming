@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+	int x,sq,cub;
+	printf("enter the number");
+	scanf("%d",& x);
+	sq=x*x;
+	cub=x*x*x;
+	return 0;
+	
+}
