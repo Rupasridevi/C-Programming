@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+  int i,p,q,r,c=0;
+  printf("enter value");
+  scanf("%d %d",&p,&q);
+  printf("enter r");
+  scanf("%d",&r);
+  for(i=60;i<=70;i++);
+  {
+  	if(c==r)
+  	{
+  	  c++;
+  	  continue;
+	}
+	else
+	{
+	 printf("%d\n",i);
+	 c++;
+	}
+  }
+}
