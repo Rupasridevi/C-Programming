@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+   int x;
+   printf("enter the value");
+   scanf ("%d",&x);
+   if(x>=18)
+   printf("person is eligible for voting");
+   else
+   printf("you have to wait  upto %d years for voting ",18-x);
+   return 0;
+}
