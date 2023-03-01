@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main()
+{
+	char grade[2];
+	float sal,netsal,bon;
+	printf("enter choice");
+	scanf("%s",grade);
+	printf("enter salary");
+	    scanf("%f",&sal);
+	    if(sal<=10000)
+	    
+	      if((strcmp(grade,"A")==0)||(strcmp(grade,"a")==0))	       
+		  
+	      	bon=sal*(7.0/100.0);
+	    	    
+	      else
+	        bon=sal*5/100.0;
+	         
+	    else if(sal<=10000)
+	    
+	      if((strcmp(grade,"B")==0)||(strcmp(grade,"b")==0))	       
+		  
+	      	bon=sal*(12.0/100.0);
+	    	    
+	    else
+	      if(sal>10000)
+	         bon=sal* 10/100.0;
+       
+       netsal=sal+bon;
+       printf("salary = %f\n",sal);
+       printf("bonous = %f\n",bon);
+       printf("NetSal = %f",netsal);
+       
+
+	return 0;
+}
